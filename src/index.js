@@ -15,7 +15,7 @@ app.use("/users", userRouter);
 app.use("/note", noteRouter);
 
 app.get("/", (req, res)=>{
-    console.log('Hello IK');
+    res.send('Hello IK');
 });
 const PORT = process.env.PORT || 5000;
 mongoose.connect(process.env.MONGO_URL)
