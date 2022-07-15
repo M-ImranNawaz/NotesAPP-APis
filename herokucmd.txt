@@ -1,0 +1,5 @@
+
+heroku git:remote -a notes-appapi
+git add .
+git commit -m "my first "
+git push heroku master
